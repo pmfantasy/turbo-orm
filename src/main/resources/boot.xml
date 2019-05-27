@@ -1,0 +1,17 @@
+<BootParam>
+	<!-- 要扫描的实体包 -->
+	<modulePackage>
+		<package>com.zlxd.*|core.*</package>
+	</modulePackage>
+	<!-- Spring初始化之前的监听器 -->
+	<beforeSpringListener>
+	</beforeSpringListener>
+	<!-- Spring初始化之后的监听器 -->
+	<afterSpringListener>
+	</afterSpringListener>
+	<!-- 拦截器按顺序执行 -->
+	<interceptors>
+	</interceptors>
+</BootParam>
+
+

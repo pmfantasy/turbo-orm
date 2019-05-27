@@ -1,0 +1,28 @@
+
+
+目前该组件只支持监控应用于被监控应用在同一jvm下
+使用方式：
+
+AbstractMonitorService  monitorService=new 实现类();
+monitorService.initJmxConn() 初始化jmxconn，必须在获取监控信息之前调用
+monitorService.monitorJvm() 监控jvm
+monitorService.monitorOs() 监控操作系统
+monitorService.monitorServer() 监控服务器
+
+
+
+1.如果仅仅只监控jvm相关的MBean
+只需要AbstractMonitorService  monitorService=new DefaultJvmMonitor();
+-----------注意只能调用monitorJvm()  monitorOs()两个方法，该类不支持监控服务器
+
+
+2.如果要监控jvm和应用服务器，则有三个实现--目前只支持tomcat tongweb weblogic三种服务器监控
+TomcatMonitorService---------监控tomcat
+WeblogicMonitorService-------监控weblogic
+TongWebMonitorService-------监控tongweb
+
+根据项目具体的部署环境使用不同的实现类进行监控
+
+
+
+如果要实现监控不在同一个jvm下的应用，使用JmxConnectionFactory获取其他类型的MBean连接即可，自行实现
