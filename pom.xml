@@ -10,7 +10,7 @@
 		<jdk.version>1.8</jdk.version>
 		<spring.version>4.3.10.RELEASE</spring.version>
 		<quartz.version>1.8.5</quartz.version>
-		<poi.version>3.8</poi.version>
+		<poi.version>5.2.1</poi.version>
 		<!-- <quartz.version>2.2.1</quartz.version> -->
 		<guava.version>14.0.1</guava.version>
 		<commons-lang.version>2.6</commons-lang.version>
