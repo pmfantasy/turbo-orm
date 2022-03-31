@@ -8,7 +8,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<jdk.version>1.8</jdk.version>
-		<spring.version>4.3.10.RELEASE</spring.version>
+		<spring.version>5.3.18</spring.version>
 		<quartz.version>1.8.5</quartz.version>
 		<poi.version>3.8</poi.version>
 		<!-- <quartz.version>2.2.1</quartz.version> -->
