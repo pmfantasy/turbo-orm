@@ -46,7 +46,7 @@
 		<cxf.version>2.6.8</cxf.version>
 		<fastjson.version>1.1.37</fastjson.version>
 		<libthrift.version>0.9.1</libthrift.version>
-		<commons-net.version>3.6</commons-net.version>
+		<commons-net.version>3.9.0</commons-net.version>
 	</properties>
 
 	<dependencies>
